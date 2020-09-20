@@ -1,0 +1,15 @@
+premiere phase
+essai de commit
+
+	git add nom de fichier
+
+	git commit -m "commentaire"
+
+	git status
+
+deuxime phase
+dépôt à distance
+
+	git remote add URL
+
+CA NE MARCHE PAS EN LIGNE DE COMMANDE MAIS EN DEPOSANT LE FICHIER OUI !
