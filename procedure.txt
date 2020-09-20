@@ -7,9 +7,28 @@ essai de commit
 
 	git status
 
-deuxime phase
+deuxième phase:
+
 dépôt à distance
 
-	git remote add URL
+	git remote add [name] [URL]
 
-CA NE MARCHE PAS EN LIGNE DE COMMANDE MAIS EN DEPOSANT LE FICHIER OUI !
+ça n'a pas marché car il y avait déjà une branche créée, si on change le nom du fichier initial, ou qu'on change de nom , ça complique.
+
+proposition du site GITHUB:
+
+or create a new repository on the command line
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Craftworx/gitlab.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/Craftworx/gitlab.git
+git branch -M master
+git push -u origin master
+
